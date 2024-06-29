@@ -1,8 +1,10 @@
 # ZKprover AVS
 
-## What it does
+## Project Description
 
 ZKprover as an Actively Validated Services(AVS) revolutionizes task verification through a seamless interaction between users and operators. Users initiate tasks, such as mathematical computations or data verification, by submitting requests to the AVS. Operators, registered and staked within the system, then respond by generating zero-knowledge proofs (zkProofs) that validate the task's correctness without revealing sensitive information. These proofs are securely submitted back to the AVS for on-chain validation, ensuring transparency and integrity through blockchain technology.
+
+## Project Video
 
 ## Process Overview
 
@@ -40,12 +42,29 @@ ZKprover as an Actively Validated Services(AVS) revolutionizes task verification
 5. Run `npm install`
 6. Run `ts-node index.ts`
 
+## Challenges Faced
+### Understanding the AVS framework.
+The building block of our project was AVS so understanding it in depth was utterly necessary.
+### Integration with Smart Contracts
+EigenLayer's Repo has a lot of smart contracts.Understanding each of them were necessary to buils our project although we learned a lot but it was quite challenging
+### Integration of circuit with operator
+First we planned to use a complex circuit but we were facing issues while intergating the operator with the proving mechanism due to bulk of input size.So instead we went ahead with using simpler circuits that is being adder
+
+
+## Individual Contributions
+
+### Veer
+-Frontend
+-Backend
+-Modification and Integration of Smart Contracts
+
+### Abdullah
+-ZKproofs Integration with Operator
+-Modification and Integration of Smart Contracts
+-Bash scripting
+
 ## Learning
-Throughout the development of ZKprover as an AVS, we gained invaluable insights into how autonomous verification systems interact with both operators and consumers.we also learned and implemented zk proofs in circom language. Though the circuit we used is a simple one, but understanding its working helped us gain a lot of knowledge.Due to time constraints, our initial focus has been on enabling the AVS to verify the sum of two numbers. Looking ahead, we are enthusiastic about expanding its capabilities to handle more complex tasks, thereby enhancing its utility and versatility for users seeking robust, decentralized verification solutions.
+-We undestood the architecture of EigenLayer AVS which included understaing its complex smart ocntracts and how they interact with each other
+-We Learned about ehters library 
 
-## Team Members
-
-- Veer
-- Abdullah
-
-
+### Future 
