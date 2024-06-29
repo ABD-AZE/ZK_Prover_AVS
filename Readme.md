@@ -4,6 +4,14 @@
 
 ZKprover as an Actively Validated Services(AVS) revolutionizes task verification through a seamless interaction between users and operators. Users initiate tasks, such as mathematical computations or data verification, by submitting requests to the AVS. Operators, registered and staked within the system, then respond by generating zero-knowledge proofs (zkProofs) that validate the task's correctness without revealing sensitive information. These proofs are securely submitted back to the AVS for on-chain validation, ensuring transparency and integrity through blockchain technology.
 
+### Working of Project
+![AVS (1)](https://github.com/ABD-AZE/ZK_Prover_AVS/assets/142890355/34f0930e-1b70-4455-a740-1dd35cbe70fc)
+
+### How Operator gets registered 
+<img width="899" alt="Screenshot 2024-06-30 at 02 29 40" src="https://github.com/ABD-AZE/ZK_Prover_AVS/assets/142890355/17cd1503-a449-480b-917e-8545f724c870">
+
+
+
 ## Project Video
 
 ## Process Overview
