@@ -29,7 +29,7 @@ ZKprover as an Actively Validated Services(AVS) revolutionizes task verification
 
 1. Clone the repository: `git clone https://github.com/ABD-AZE/ZK_Prover_AVS.git `
 2. Run `npm install`
-3. Run `cp .env.local .env`
+3. Run `cp .env`
 4. Run `make start-chain-with-contracts-deployed`
 5. Open new terminal tab and run `make start-operator`
 
