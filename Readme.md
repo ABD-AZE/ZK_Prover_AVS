@@ -1,4 +1,3 @@
-![AVS (4)](https://github.com/ABD-AZE/ZK_Prover_AVS/assets/142890355/c29f283a-04df-469e-a8c4-f8830d87e6a8)
 # ZKprover AVS
 
 ## Project Description
