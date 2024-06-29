@@ -43,28 +43,41 @@ ZKprover as an Actively Validated Services(AVS) revolutionizes task verification
 6. Run `ts-node index.ts`
 
 ## Challenges Faced
-### Understanding the AVS framework.
-The building block of our project was AVS so understanding it in depth was utterly necessary.
-### Integration with Smart Contracts
-EigenLayer's Repo has a lot of smart contracts.Understanding each of them were necessary to buils our project although we learned a lot but it was quite challenging
-### Integration of circuit with operator
-First we planned to use a complex circuit but we were facing issues while intergating the operator with the proving mechanism due to bulk of input size.So instead we went ahead with using simpler circuits that is being adder
+1. ### Understanding the AVS framework.
+The building block of our project was AVS so understanding it in depth was truly a necessary as well as a cumbersome task.
+
+2. ### Integration with Smart Contracts
+EigenLayer's Repo has a lot of smart contracts. Understanding each of them was necessary to build our project, although we learned a lot but it was quite challenging
+
+3. ### Integration of circuit with operator
+First we planned to use a complex circuit but we were facing issues while intergation due to the large input sizes for a more complex circuit. So instead we went ahead with using simpler circuits i.e. The Adder Circuit
 
 
 ## Individual Contributions
 
 ### Veer
 - Frontend
+
 - Backend
+
 - Modification and Integration of Smart Contracts
 
 ### Abdullah
+
 - ZKproofs Integration with Operator
+
 - Modification and Integration of Smart Contracts
+
 - Bash scripting
 
 ## Learning
--We undestood the architecture of EigenLayer AVS which included understaing its complex smart ocntracts and how they interact with each other
--We Learned about ehters library 
-
-### Future 
+- Our main aim was to build a ZK prover for a ZK roll up as an AVS. So in the initial phase of our project we also learned about roll up functioning and the problem with the prover being a centralized entity.
+- We undestood the architecture of EigenLayer AVS which included understaing its complex smart ocntracts and how they interact with each other
+- We used the ethers library a lot during the project, thereby deepening our understanding of its methods.
+- Understanding how pre-saved states can be used to start a local anvil chain from that particular state was also really fascinating.
+- We also learned a lot about bash scripting along with javascript promises to integrate out circuit with the operator file which was written in js.
+  
+## Future Plans
+- We first and foremost plan to implement a staking and slashing logic so that our AVS can truly demonstrate the working of an Eigen Layer AVS.
+- We would also be working on the zero knowledge proofs. Our main aim was to make a ZK prover, so we would continue on that path and increase the complexity of our circuit. Next we are thinking to upgrade to a merkle inclusion proof.
+- working on BLSIntegration for our AVS.
