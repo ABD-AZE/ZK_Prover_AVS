@@ -54,14 +54,14 @@ First we planned to use a complex circuit but we were facing issues while interg
 ## Individual Contributions
 
 ### Veer
--Frontend
--Backend
--Modification and Integration of Smart Contracts
+- Frontend
+- Backend
+- Modification and Integration of Smart Contracts
 
 ### Abdullah
--ZKproofs Integration with Operator
--Modification and Integration of Smart Contracts
--Bash scripting
+- ZKproofs Integration with Operator
+- Modification and Integration of Smart Contracts
+- Bash scripting
 
 ## Learning
 -We undestood the architecture of EigenLayer AVS which included understaing its complex smart ocntracts and how they interact with each other
